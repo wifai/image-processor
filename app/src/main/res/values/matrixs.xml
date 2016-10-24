@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="box_blur">
+        <item>1</item>
+
+        <item>1</item><item>1</item><item>1</item>
+        <item>1</item><item>1</item><item>1</item>
+        <item>1</item><item>1</item><item>1</item>
+
+        <item>1</item>
+    </array>
+    <array name="gaussian_blur">
+        <item>1</item>
+
+        <item>1</item><item>2</item><item>1</item>
+        <item>2</item><item>4</item><item>2</item>
+        <item>1</item><item>2</item><item>1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="sharpen">
+        <item>1</item>
+
+        <item>0</item><item>-1</item><item>0</item>
+        <item>-1</item><item>5</item><item>-1</item>
+        <item>0</item><item>-1</item><item>0</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="homogen">
+        <item>1</item>
+
+        <item>1</item><item>1</item><item>1</item>
+        <item>1</item><item>-8</item><item>1</item>
+        <item>1</item><item>1</item><item>1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="difference">
+        <item>1</item>
+
+        <item>-1</item><item>-1</item><item>-1</item>
+        <item>-1</item><item>0</item><item>1</item>
+        <item>1</item><item>1</item><item>1</item>
+
+        <item>1</item>
+    </array>
+
+
+    <array name="robert">
+        <item>2</item>
+
+        <item>0</item><item>0</item><item>-1</item>
+        <item>0</item><item>1</item><item>0</item>
+        <item>0</item><item>0</item><item>0</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="prewit">
+        <item>2</item>
+
+        <item>1</item><item>0</item><item>-1</item>
+        <item>1</item><item>0</item><item>-1</item>
+        <item>1</item><item>0</item><item>-1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="sobel">
+        <item>2</item>
+
+        <item>1</item><item>0</item><item>-1</item>
+        <item>2</item><item>0</item><item>-2</item>
+        <item>1</item><item>0</item><item>-1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="frei_chen">
+        <item>2</item>
+
+        <item>10000</item><item>0</item><item>-10000</item>
+        <item>14142</item><item>0</item><item>-14142</item>
+        <item>10000</item><item>0</item><item>-10000</item>
+
+        <item>10000</item>
+    </array>
+
+    <array name="prewit_8">
+        <item>8</item>
+
+        <item>1</item><item>1</item><item>-1</item>
+        <item>1</item><item>-2</item><item>-1</item>
+        <item>1</item><item>1</item><item>-1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="kirch">
+        <item>8</item>
+
+        <item>5</item><item>-3</item><item>-3</item>
+        <item>5</item><item>0</item><item>-3</item>
+        <item>5</item><item>-3</item><item>-3</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="robinson_3">
+        <item>8</item>
+
+        <item>1</item><item>0</item><item>-1</item>
+        <item>1</item><item>0</item><item>-1</item>
+        <item>1</item><item>0</item><item>-1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="robinson_5">
+        <item>8</item>
+
+        <item>1</item><item>1</item><item>-1</item>
+        <item>1</item><item>-2</item><item>-1</item>
+        <item>1</item><item>1</item><item>-1</item>
+
+        <item>1</item>
+    </array>
+
+    <array name="matrix_convolution">
+        <item>@array/box_blur</item>
+        <item>@array/gaussian_blur</item>
+        <item>@array/sharpen</item>
+        <item>@array/homogen</item>
+        <item>@array/difference</item>
+        <item>@array/robert</item>
+        <item>@array/prewit</item>
+        <item>@array/sobel</item>
+        <item>@array/frei_chen</item>
+        <item>@array/prewit_8</item>
+        <item>@array/kirch</item>
+        <item>@array/robinson_3</item>
+        <item>@array/robinson_5</item>
+    </array>
+</resources>

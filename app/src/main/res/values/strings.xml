@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ImageProcessor</string>
+
+    <string-array name="matrix_convolution_name">
+        <item>Box Blur</item>
+        <item>Gaussian Blur</item>
+        <item>Sharpen</item>
+        <item>homogen (derajat 0)</item>
+        <item>difference (derajat 0)</item>
+        <item>Robert (derajat 1)</item>
+        <item>Prewit (derajat 1)</item>
+        <item>Sobel (derajat 1)</item>
+        <item>Frei-Chen (derajat 1)</item>
+        <item>Prewit 8 (derajat 2)</item>
+        <item>Kirch (derajat 2)</item>
+        <item>Robinson-3 level (derajat 2)</item>
+        <item>Robinson-5 level (derajat 2)</item>
+    </string-array>
+</resources>
